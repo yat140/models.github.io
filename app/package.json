@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.1",
+  "description": "yarn test",
+  "main": "1",
+  "repository": "https://github.com/github/yat140",
+  "author": "timo",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --watch",
+    "package": "webpack"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "progress-bar-webpack-plugin": "^1.12.1",
+    "raw-loader": "^3.1.0",
+    "three": "^0.109.0",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}

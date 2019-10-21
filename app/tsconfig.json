@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "lib": ["esnext", "dom"],
+    "outDir": "build/src"
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
